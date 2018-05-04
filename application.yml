@@ -5,5 +5,5 @@ zuul:
       path: /hello-server/**
       serviceId: hello-server
     service-a:
-      path: service-a
+      path: /service-a/**
       serviceId: hello-server
