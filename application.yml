@@ -1,5 +1,6 @@
 zuul:
   routes:
+#  这里起的名字决定了通过Gateway请求是的路径名称，也就是将这里的路径映射为下面 path 的路径，从serviceId指定的服务
     hello-server:
       path: /aaa/**
     serviceId: hello-server
