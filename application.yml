@@ -1,5 +1,5 @@
 zuul:
   routes:
-    hello-server:
+    aaa:
       path: /aaa/**
       serviceId: hello-server
